@@ -2,6 +2,7 @@
 
 This repository contains a multi-stage analysis of the MNIST handwritten digit dataset, progressing from foundational classification techniques to advanced dimensionality reduction. The project compares multiple models (KNN, SVM) and data representation strategies (Raw, PCA, Kernel PCA, UMAP) to identify the most effective and efficient approach for digit recognition.
 
+```
 ## **Project Structure**
 
 Comprehensive-MNIST-Analysis/  
@@ -21,6 +22,8 @@ Comprehensive-MNIST-Analysis/
     ├── accuracy\_comparison\_all\_methods.png  
     ├── confusion\_matrix\_pca.png  
     └── ... (and other key result images)
+
+```
 
 ## **Technologies & Tools**
 
