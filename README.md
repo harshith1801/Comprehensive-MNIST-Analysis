@@ -2,13 +2,12 @@
 
 This repository contains a multi-stage analysis of the MNIST handwritten digit dataset, progressing from foundational classification techniques to advanced dimensionality reduction. The project compares multiple models (KNN, SVM) and data representation strategies (Raw, PCA, Kernel PCA, UMAP) to identify the most effective and efficient approach for digit recognition.
 
-```
 ## **Project Structure**
-
+```
 Comprehensive-MNIST-Analysis/  
 │  
 ├── main.ipynb                  \# Main Jupyter Notebook with the full analysis narrative.  
-├── README.md                   \# This overview file.  
+├── README.md                     
 ├── requirements.txt            \# Required Python libraries to run the project.  
 ├── .gitignore                  \# Specifies files for Git to ignore.  
 │  
@@ -58,13 +57,15 @@ This project is broken down into a logical progression of analysis:
    cd Comprehensive-MNIST-Analysis
 
 2. **Set up a Virtual Environment (Recommended):**  
+```
    python \-m venv venv  
    source venv/bin/activate  \# On Windows, use \`venv\\Scripts\\activate\`
-
-3. **Install Dependencies:**  
+```
+4. **Install Dependencies:**  
+```
    pip install \-r requirements.txt
-
-4. Download the MNIST Dataset:  
+```
+6. Download the MNIST Dataset:  
    The code requires the four raw MNIST data files. Download them from Yann LeCun's official website and place them in the root project directory (Comprehensive-MNIST-Analysis/).  
    **Required files:**  
    * train-images-idx3-ubyte.gz  
@@ -75,9 +76,10 @@ This project is broken down into a logical progression of analysis:
 **Important:** After downloading, you must **unzip** the files. You should have the four files with the \-ubyte extension in your folder.
 
 5. Run the Jupyter Notebook:  
-   Launch Jupyter and open the main.ipynb file to view the complete analysis.  
+   Launch Jupyter and open the main.ipynb file to view the complete analysis.
+```  
    jupyter notebook main.ipynb
-
+```
 ## **Citations & References**
 
 * **MNIST Dataset:** LeCun, Y., Cortes, C., & Burges, C. J. C. (1998). The MNIST database of handwritten digits. [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)  
